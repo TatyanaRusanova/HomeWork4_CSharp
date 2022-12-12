@@ -15,4 +15,4 @@ int Sum(int num)
 
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"{Sum(num)}");
+Console.WriteLine($"Сумма цифр в числе {num} равно {Sum(num)}");
